@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="10" failures="0" errors="0" time="36.344875">
+	<testsuite tests="0" failures="0" time="0.000000" name="technical-interview/cmd/server" timestamp="2023-12-01T10:55:42+01:00">
+		<properties>
+			<property name="go.version" value="go1.21.4 darwin/amd64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="technical-interview/config" timestamp="2023-12-01T10:55:42+01:00">
+		<properties>
+			<property name="go.version" value="go1.21.4 darwin/amd64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="technical-interview/pkg/api" timestamp="2023-12-01T10:55:42+01:00">
+		<properties>
+			<property name="go.version" value="go1.21.4 darwin/amd64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="10" failures="0" time="1.409000" name="technical-interview/pkg/dao" timestamp="2023-12-01T10:55:42+01:00">
+		<properties>
+			<property name="go.version" value="go1.21.4 darwin/amd64"></property>
+		</properties>
+		<testcase classname="technical-interview/pkg/dao" name="TestUserCreate/Success" time="1.010000"></testcase>
+		<testcase classname="technical-interview/pkg/dao" name="TestUserCreate/EmailTaken" time="0.010000"></testcase>
+		<testcase classname="technical-interview/pkg/dao" name="TestUserCreate" time="1.020000"></testcase>
+		<testcase classname="technical-interview/pkg/dao" name="TestGetUser/Success" time="0.010000"></testcase>
+		<testcase classname="technical-interview/pkg/dao" name="TestGetUser/UserNotFound" time="0.020000"></testcase>
+		<testcase classname="technical-interview/pkg/dao" name="TestGetUser" time="0.030000"></testcase>
+		<testcase classname="technical-interview/pkg/dao" name="TestUpdateEmail/Success" time="0.030000"></testcase>
+		<testcase classname="technical-interview/pkg/dao" name="TestUpdateEmail/UserNotFound" time="0.020000"></testcase>
+		<testcase classname="technical-interview/pkg/dao" name="TestUpdateEmail/EmailTaken" time="0.020000"></testcase>
+		<testcase classname="technical-interview/pkg/dao" name="TestUpdateEmail" time="0.070000"></testcase>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="technical-interview/pkg/handlers" timestamp="2023-12-01T10:55:42+01:00">
+		<properties>
+			<property name="go.version" value="go1.21.4 darwin/amd64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="technical-interview/pkg/models" timestamp="2023-12-01T10:55:42+01:00">
+		<properties>
+			<property name="go.version" value="go1.21.4 darwin/amd64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="technical-interview/pkg/services" timestamp="2023-12-01T10:55:42+01:00">
+		<properties>
+			<property name="go.version" value="go1.21.4 darwin/amd64"></property>
+		</properties>
+	</testsuite>
+</testsuites>
